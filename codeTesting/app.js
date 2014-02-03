@@ -15,8 +15,11 @@ function Person (){
 
 //Form variables and methods
 
+<<<<<<< HEAD
 var submitButton = document.getElementById("submitButton");
 var firstNameInput = document.getElementById("firstNameInput");
+=======
+>>>>>>> trying-jQuery
 
 
 
@@ -36,7 +39,12 @@ submitButton.onclick = function () {
 
 
 $(document).ready(function(){
+<<<<<<< HEAD
 	
+=======
+	var submitButton = $("#submitButton");
+	var firstNameInput = $("#firstNameInput");
+>>>>>>> trying-jQuery
 	var lastNameInput = $("#lastNameInput");
 	
 	
